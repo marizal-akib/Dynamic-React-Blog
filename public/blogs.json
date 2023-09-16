@@ -1,60 +1,72 @@
-{
-    "id": 1,
-    "cover": "https://i.ibb.co/BLB1pFJ/2dba700ab39b0e359b07d22b6c76113480cd5c9e-1200x630.webp",
-    "title": "How to Create a Blog with React",
-    "author": "John Doe",
-    "authorImg": "https://robohash.org/johndoe.png",
-    "posted": true,
-    "date": "2023-03-08",
-    "readingTime": 10,
-    "hashtags": ["react", "blog", "tutorial"]
-  }
-  
-  {
-    "id": 2,
-    "cover": "https://i.ibb.co/bg7g4py/images-Integrity-Training-Aug2023-Learn-Java-Script-from-Scratch.png",
-    "title": "Learn JavaScript from Scratch",
-    "author": "Jane Doe",
-    "authorImg": "https://robohash.org/janedoe.png",
-    "posted": true,
-    "date": "2023-03-09",
-    "readingTime": 20,
-    "hashtags": ["javascript", "tutorial", "beginner"]
-  }
-  
-  {
-    "id": 3,
-    "cover": "https://i.ibb.co/Q9dnVBh/Get-Started-With-Django-Watermarked.webp",
-    "title": "Build a Website with Django",
-    "author": "Peter Smith",
-    "authorImg": "https://robohash.org/petersmith.png",
-    "posted": true,
-    "date": "2023-03-10",
-    "readingTime": 30,
-    "hashtags": ["django", "website", "tutorial"]
-  }
-  
-  {
-    "id": 4,
-    "cover": "https://i.ibb.co/PgnhCht/curso-git-y-github-facialix.jpg",
-    "title": "Master Git and GitHub",
-    "author": "Sarah Jones",
-    "authorImg": "https://robohash.org/sarahjones.png",
-    "posted": true,
-    "date": "2023-03-11",
-    "readingTime": 40,
-    "hashtags": ["git", "github", "tutorial"]
-  }
-  
-  {
-    "id": 5,
-    "cover": "https://i.ibb.co/GF49w94/Untitled-design24.png",
-    "title": "Learn Python for Data Science",
-    "author": "David Brown",
-    "authorImg": "https://robohash.org/davidbrown.png",
-    "posted": true,
-    "date": "2023-03-12",
-    "readingTime": 50,
-    "hashtags": ["python", "data science", "tutorial"]
-  }
-  
+[
+    {
+        "id": 1,
+        "cover": "https://i.ibb.co/BLB1pFJ/2dba700ab39b0e359b07d22b6c76113480cd5c9e-1200x630.webp",
+        "title": "How to Create a Blog with React",
+        "author": "John Doe",
+        "authorImg": "https://robohash.org/johndoe.png",
+        "postedDate": "2023-03-08",
+        "readingTime": 10,
+        "hashtags": [
+            "react",
+            "blog",
+            "tutorial"
+        ]
+    },
+    {
+        "id": 2,
+        "cover": "https://i.ibb.co/bg7g4py/images-Integrity-Training-Aug2023-Learn-Java-Script-from-Scratch.png",
+        "title": "Learn JavaScript from Scratch",
+        "author": "Jane Doe",
+        "authorImg": "https://robohash.org/janedoe.png",
+        "postedDate": "2023-03-09",
+        "readingTime": 20,
+        "hashtags": [
+            "javascript",
+            "tutorial",
+            "beginner"
+        ]
+    },
+    {
+        "id": 3,
+        "cover": "https://i.ibb.co/Q9dnVBh/Get-Started-With-Django-Watermarked.webp",
+        "title": "Build a Website with Django",
+        "author": "Peter Smith",
+        "authorImg": "https://robohash.org/petersmith.png",
+        "postedDate": "2023-03-10",
+        "readingTime": 30,
+        "hashtags": [
+            "django",
+            "website",
+            "tutorial"
+        ]
+    },
+    {
+        "id": 4,
+        "cover": "https://i.ibb.co/PgnhCht/curso-git-y-github-facialix.jpg",
+        "title": "Master Git and GitHub",
+        "author": "Sarah Jones",
+        "authorImg": "https://robohash.org/sarahjones.png",
+        "postedDate": "2023-03-11",
+        "readingTime": 40,
+        "hashtags": [
+            "git",
+            "github",
+            "tutorial"
+        ]
+    },
+    {
+        "id": 5,
+        "cover": "https://i.ibb.co/GF49w94/Untitled-design24.png",
+        "title": "Learn Python for Data Science",
+        "author": "David Brown",
+        "authorImg": "https://robohash.org/davidbrown.png",
+        "postedDate": "2023-03-12",
+        "readingTime": 50,
+        "hashtags": [
+            "python",
+            "data science",
+            "tutorial"
+        ]
+    }
+]
