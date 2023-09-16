@@ -16,11 +16,14 @@ function App() {
     console.log('Bookmark adding', blog);
   }
 
-  const handelMarkAsRead = time =>{
+  const handelMarkAsRead = (id,time) =>{
     const newReadingTime = readingTime + time;
     setReadingTime(newReadingTime)
+    // console.log("marked", time);
 
-    console.log("marked", time);
+    console.log('remove bookmark' ,id);
+    const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id);
+    setBookmarks(remainingBookmarks);
   }
 
   return (
